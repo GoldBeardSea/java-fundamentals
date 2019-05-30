@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="083e0d55-2f61-4938-93bf-f6406ea24331" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fundamentals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FundamentalsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../basics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -37,10 +42,10 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/FundamentalsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="848">
-                  <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+                <state relative-caret-position="1410">
+                  <caret line="94" selection-start-line="94" selection-end-line="94" />
                   <folding>
                     <element signature="e#0#361#0" expanded="true" />
                     <element signature="imports" expanded="true" />
@@ -50,12 +55,15 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Fundamentals.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-392">
-                  <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+                <state relative-caret-position="104">
+                  <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
                   <folding>
+                    <element signature="e#0#167#0" expanded="true" />
                     <element signature="imports" expanded="true" />
+                    <element signature="e#4344#4345#0" expanded="true" />
+                    <element signature="e#4370#4371#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -66,10 +74,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Fundamentals.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-397">
-                  <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+                <state relative-caret-position="136">
+                  <caret line="138" column="73" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="73" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -95,17 +103,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/DiceRoll.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Library.java" />
         <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Library.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Fundamentals.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FundamentalsTest.java" />
       </list>
     </option>
   </component>
@@ -169,6 +170,9 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -181,13 +185,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.LibraryTest.testAverageOfArrays_goofed">
-    <configuration name="LibraryTest.testAverageOfArrays" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FundamentalsTest">
+    <configuration name="FundamentalsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LibraryTest.testAverageOfArrays&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FundamentalsTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -202,12 +206,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testAverageOfArrays_goofed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FundamentalsTest.testLinter_gatesMedium" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LibraryTest.testAverageOfArrays_goofed&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FundamentalsTest.testLinter_gatesMedium&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -222,12 +226,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testAveragesOfArray_basic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FundamentalsTest.testLinter_gatesNoError" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LibraryTest.testAveragesOfArray_basic&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FundamentalsTest.testLinter_gatesNoError&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -242,12 +246,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testAveragesOfArray_negatives" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FundamentalsTest.testTally_Bub" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LibraryTest.testAveragesOfArray_negatives&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FundamentalsTest.testTally_Bub&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -262,12 +266,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testContainsDuplicates_containsDupes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FundamentalsTest.testTally_Scrub" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LibraryTest.testContainsDuplicates_containsDupes&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FundamentalsTest.testTally_Scrub&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -284,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LibraryTest.testAverageOfArrays_goofed" />
-        <item itemvalue="Gradle.LibraryTest.testAverageOfArrays" />
-        <item itemvalue="Gradle.LibraryTest.testAveragesOfArray_negatives" />
-        <item itemvalue="Gradle.LibraryTest.testAveragesOfArray_basic" />
-        <item itemvalue="Gradle.LibraryTest.testContainsDuplicates_containsDupes" />
+        <item itemvalue="Gradle.FundamentalsTest" />
+        <item itemvalue="Gradle.FundamentalsTest.testTally_Scrub" />
+        <item itemvalue="Gradle.FundamentalsTest.testTally_Bub" />
+        <item itemvalue="Gradle.FundamentalsTest.testLinter_gatesNoError" />
+        <item itemvalue="Gradle.FundamentalsTest.testLinter_gatesMedium" />
       </list>
     </recent_temporary>
   </component>
@@ -306,29 +310,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest_testRoll_basic - 2019.05.29 at 10h 52m 32s.xml">
-      <configuration name="LibraryTest.testRoll_basic" configurationId="GradleRunConfiguration" />
+    <history-entry file="FundamentalsTest_testAnalyzeWeather_testStandard - 2019.05.30 at 13h 24m 05s.xml">
+      <configuration name="FundamentalsTest.testAnalyzeWeather_testStandard" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LibraryTest_testContainsDuplicates_notDupes - 2019.05.29 at 10h 55m 32s.xml">
-      <configuration name="LibraryTest.testContainsDuplicates_notDupes" configurationId="GradleRunConfiguration" />
+    <history-entry file="FundamentalsTest_testAnalyzeWeather_testStandard - 2019.05.30 at 13h 24m 58s.xml">
+      <configuration name="FundamentalsTest.testAnalyzeWeather_testStandard" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LibraryTest_testContainsDuplicates_containsDupes - 2019.05.29 at 10h 55m 42s.xml">
-      <configuration name="LibraryTest.testContainsDuplicates_containsDupes" configurationId="GradleRunConfiguration" />
+    <history-entry file="FundamentalsTest_testLinter_gatesEmpty - 2019.05.30 at 13h 39m 00s.xml">
+      <configuration name="FundamentalsTest.testLinter_gatesEmpty" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LibraryTest_testAveragesOfArray_basic - 2019.05.29 at 10h 58m 21s.xml">
-      <configuration name="LibraryTest.testAveragesOfArray_basic" configurationId="GradleRunConfiguration" />
+    <history-entry file="FundamentalsTest_testLinter_gatesMedium - 2019.05.30 at 13h 39m 06s.xml">
+      <configuration name="FundamentalsTest.testLinter_gatesMedium" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LibraryTest_testAveragesOfArray_negatives - 2019.05.29 at 10h 58m 24s.xml">
-      <configuration name="LibraryTest.testAveragesOfArray_negatives" configurationId="GradleRunConfiguration" />
+    <history-entry file="FundamentalsTest_testLinter_gatesOneError - 2019.05.30 at 13h 39m 14s.xml">
+      <configuration name="FundamentalsTest.testLinter_gatesOneError" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LibraryTest_testAverageOfArrays - 2019.05.29 at 11h 08m 27s.xml">
-      <configuration name="LibraryTest.testAverageOfArrays" configurationId="GradleRunConfiguration" />
+    <history-entry file="FundamentalsTest_testLinter_gatesMedium - 2019.05.30 at 13h 39m 21s.xml">
+      <configuration name="FundamentalsTest.testLinter_gatesMedium" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LibraryTest_testAverageOfArrays_goofed - 2019.05.29 at 11h 12m 33s.xml">
-      <configuration name="LibraryTest.testAverageOfArrays_goofed" configurationId="GradleRunConfiguration" />
+    <history-entry file="FundamentalsTest_testLinter_gatesNoError - 2019.05.30 at 13h 39m 41s.xml">
+      <configuration name="FundamentalsTest.testLinter_gatesNoError" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LibraryTest_testAverageOfArrays_goofed - 2019.05.29 at 11h 12m 45s.xml">
-      <configuration name="LibraryTest.testAverageOfArrays_goofed" configurationId="GradleRunConfiguration" />
+    <history-entry file="FundamentalsTest_testTally_Bub - 2019.05.30 at 13h 40m 24s.xml">
+      <configuration name="FundamentalsTest.testTally_Bub" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FundamentalsTest_testTally_Scrub - 2019.05.30 at 13h 40m 45s.xml">
+      <configuration name="FundamentalsTest.testTally_Scrub" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FundamentalsTest - 2019.05.30 at 13h 42m 27s.xml">
+      <configuration name="FundamentalsTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -348,7 +358,7 @@
       <window_info anchor="bottom" id="Build" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33674964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,20 +382,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fundamentals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-392">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="104">
+          <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
           <folding>
+            <element signature="e#0#167#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#4344#4345#0" expanded="true" />
+            <element signature="e#4370#4371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FundamentalsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        <state relative-caret-position="1410">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="e#0#361#0" expanded="true" />
             <element signature="imports" expanded="true" />

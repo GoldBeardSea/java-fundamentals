@@ -5,7 +5,7 @@ public class Main {
 
     int count = 5;
     System.out.println("I own " + count + " " + pluralize("dog", count) + ".");
-    int n = 4;
+    int n = 20;
     flipNHead(n);
     clock();
   }
