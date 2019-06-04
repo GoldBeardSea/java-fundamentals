@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a9dedf8-8ff4-423d-9311-fed44d0a146e" name="Default Changelist" comment="" />
+    <list default="true" id="5a9dedf8-8ff4-423d-9311-fed44d0a146e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/inheritence/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritence/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inheritence/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inheritence/RestaurantTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/inheritence/Restaurant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="59" column="38" selection-start-line="59" selection-end-line="60" />
+            <state relative-caret-position="218">
+              <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
               <folding>
                 <element signature="e#0#188#0" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
@@ -41,20 +44,16 @@
                 <element signature="e#714#715#0" expanded="true" />
                 <element signature="e#762#763#0" expanded="true" />
                 <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/inheritence/RestaurantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="336">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -129,11 +128,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/inheritence/RestaurantTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/inheritence/Review.java" />
         <option value="$PROJECT_DIR$/src/test/java/inheritence/ReviewTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/inheritence/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inheritence/RestaurantTest.java" />
       </list>
     </option>
   </component>
@@ -222,6 +221,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
   </component>
@@ -293,7 +293,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReviewTest.constructor_author" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantTest.restaurantToString_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritence.test" />
       <extension name="coverage">
         <pattern>
@@ -302,8 +302,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="inheritence" />
-      <option name="MAIN_CLASS_NAME" value="inheritence.ReviewTest" />
-      <option name="METHOD_NAME" value="constructor_author" />
+      <option name="MAIN_CLASS_NAME" value="inheritence.RestaurantTest" />
+      <option name="METHOD_NAME" value="restaurantToString_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -328,10 +328,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RestaurantTest.addReview" />
+        <item itemvalue="JUnit.RestaurantTest.restaurantToString_test" />
         <item itemvalue="JUnit.RestaurantTest" />
         <item itemvalue="JUnit.ReviewTest.toString_test" />
         <item itemvalue="JUnit.RestaurantTest.addReview_testMismatchedName" />
-        <item itemvalue="JUnit.ReviewTest.constructor_author" />
       </list>
     </recent_temporary>
   </component>
@@ -349,18 +349,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestaurantTest_addReview - 2019.06.04 at 11h 44m 48s.xml">
-      <configuration name="RestaurantTest.addReview" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestaurantTest_addReview_testMismatchedName - 2019.06.04 at 11h 48m 11s.xml">
-      <configuration name="RestaurantTest.addReview_testMismatchedName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReviewTest_constructor_author - 2019.06.04 at 12h 03m 43s.xml">
-      <configuration name="ReviewTest.constructor_author" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestaurantTest_addReview - 2019.06.04 at 12h 11m 44s.xml">
-      <configuration name="RestaurantTest.addReview" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RestaurantTest_addReview_testMismatchedName - 2019.06.04 at 12h 12m 10s.xml">
       <configuration name="RestaurantTest.addReview_testMismatchedName" configurationId="JUnit" />
     </history-entry>
@@ -378,6 +366,18 @@
     </history-entry>
     <history-entry file="RestaurantTest_addReview - 2019.06.04 at 12h 39m 33s.xml">
       <configuration name="RestaurantTest.addReview" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantTest_addReview - 2019.06.04 at 12h 48m 44s.xml">
+      <configuration name="RestaurantTest.addReview" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantTest_addReview - 2019.06.04 at 12h 48m 55s.xml">
+      <configuration name="RestaurantTest.addReview" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantTest - 2019.06.04 at 12h 51m 31s.xml">
+      <configuration name="RestaurantTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantTest - 2019.06.04 at 12h 52m 14s.xml">
+      <configuration name="RestaurantTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -398,8 +398,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39970717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -413,6 +413,30 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/inheritence/Restaurant.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/inheritence/Restaurant.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/inheritence/Restaurant.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -433,6 +457,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="111" selection-start-line="18" selection-start-column="111" selection-end-line="18" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="630" selection-start-line="630" selection-end-line="630" />
+          <folding>
+            <element signature="e#24230#24231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -460,27 +494,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="630" selection-start-line="630" selection-end-line="630" />
-          <folding>
-            <element signature="e#24230#24231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inheritence/RestaurantTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/inheritence/Restaurant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="59" column="38" selection-start-line="59" selection-end-line="60" />
+        <state relative-caret-position="218">
+          <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
           <folding>
             <element signature="e#0#188#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
@@ -495,11 +512,14 @@
             <element signature="e#714#715#0" expanded="true" />
             <element signature="e#762#763#0" expanded="true" />
             <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inheritence/RestaurantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
         </state>
       </provider>
     </entry>

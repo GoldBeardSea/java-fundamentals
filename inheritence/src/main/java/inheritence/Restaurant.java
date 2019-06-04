@@ -11,14 +11,12 @@ public class Restaurant {
     private int rating;
     private String priceCat;
     private ArrayList<Review> reviews;
-    private int totalReviews;
 
     public Restaurant(String name, int rating, String priceCat) {
         this.name = name;
         this.rating = rating;
         this.priceCat = priceCat;
         this.reviews = new ArrayList<>();
-        this.totalReviews = 1;
     }
 
 
@@ -46,24 +44,14 @@ public class Restaurant {
         this.priceCat = priceCat;
     }
 
-    public int getTotalReviews() {
-        return totalReviews;
-    }
-
-    public void setTotalReviews(int totalReviews) {
-        this.totalReviews = totalReviews;
-    }
-
     public void addReview(Review review) {
         if (review.getRestaurant() == this.getName()) {
             reviews.add(review);
-            this.totalReviews = getTotalReviews() + 1;
-            int incomingRating = review.getRating();
-            int newRating = incomingRating;
+            int newRating = review.getRating();
             for (Review list: reviews) {
                 newRating = newRating + list.getRating();
             }
-            this.rating = newRating / reviews.size();
+            this.rating = newRating / (reviews.size() + 1);
         } else {
             System.out.println("Restaurant names do not match");
         }

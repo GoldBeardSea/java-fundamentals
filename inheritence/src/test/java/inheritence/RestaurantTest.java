@@ -20,7 +20,7 @@ public class RestaurantTest {
         Restaurant testaurant = new Restaurant("Not Gonna Fly", 5, "$$");
         Review testReview = new Review("Bro I'm straight up not having a good time right now", "BroJam", 1, "Not Gonna Fly");
         testaurant.addReview(testReview);
-        assertEquals(3, testaurant.getRating());
+        assertEquals(1, testaurant.getRating());
     }
 
     @Test
@@ -30,6 +30,16 @@ public class RestaurantTest {
         testaurant.addReview(testReview);
         Review testReview2 = new Review("This is a pretty good rating but the names don't match", "NiceRev", 5, "Oops wrong name");
         testaurant.addReview(testReview2);
-        assertEquals(3, testaurant.getRating());
+        assertEquals(1, testaurant.getRating());
+    }
+
+    @Test
+    public void restaurantToString_test() {
+        Restaurant testaurant = new Restaurant("Not Gonna Fly", 5, "$$");
+        Review testReview = new Review("Bro I'm straight up not having a good time right now", "BroJam", 1, "Not Gonna Fly");
+        testaurant.addReview(testReview);
+        Review testReview2 = new Review("This is a pretty good rating but the names don't match", "NiceRev", 5, "Not Gonna Fly");
+        testaurant.addReview(testReview2);
+        assertEquals("Not Gonna Fly has a 3 star rating and is $$ expensive", testaurant.toString());
     }
 }
