@@ -59,4 +59,8 @@ public class Shop implements Reviewables {
         }
         this.rating = newRating / (reviews.size());
     }
+
+    public String toString() {
+        return String.format("%s Grocery/Shop has a %d star rating and is %s expensive", this.getName(), this.getRating(), this.getPriceCat());
+    }
 }
