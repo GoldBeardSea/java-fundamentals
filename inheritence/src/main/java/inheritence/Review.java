@@ -6,6 +6,7 @@ public class Review {
     private String author;
     private int rating;
     private Reviewables reviewableObj;
+    private String movie;
 
     public Review(String body, String author, int rating, Reviewables reviewable) {
         this.body = body;
@@ -14,6 +15,17 @@ public class Review {
         this.reviewableObj = reviewable;
         reviewable.addReview(this);
     }
+
+    public Review(String body, String author, int rating, Reviewables reviewableObj, String movie) {
+        this.body = body;
+        this.author = author;
+        this.rating = rating;
+        this.reviewableObj = reviewableObj;
+        this.movie = movie;
+        reviewableObj.addReview(this);
+    }
+
+
 
     public String getBody() {
         return body;
@@ -47,7 +59,15 @@ public class Review {
         this.reviewableObj = reviewable;
     }
 
+    public String getMovie() {
+        return movie;
+    }
+
+    public void setMovie(String movie) {
+        this.movie = movie;
+    }
+
     public String toString() {
-        return String.format("%s. Restaurant: %s with a %d star rating from author %s", this.getBody(), this.getReviewable(), this.getRating(), this.getAuthor());
+        return String.format("%s. %s with a %d star rating from author %s", this.getBody(), this.getReviewable(), this.getRating(), this.getAuthor());
     }
 }
