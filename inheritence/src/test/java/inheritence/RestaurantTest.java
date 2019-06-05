@@ -18,27 +18,27 @@ public class RestaurantTest {
     @Test
     public void addReview() {
         Restaurant testaurant = new Restaurant("Not Gonna Fly", 5, "$$");
-        Review testReview = new Review("Bro I'm straight up not having a good time right now", "BroJam", 1, "Not Gonna Fly");
+        Review testReview = new Review("Bro I'm straight up not having a good time right now", "BroJam", 1, testaurant);
         testaurant.addReview(testReview);
         assertEquals(1, testaurant.getRating());
     }
 
     @Test
-    public void addReview_testMismatchedName() {
+    public void addReview_refactoredTesting() {
         Restaurant testaurant = new Restaurant("Not Gonna Fly", 5, "$$");
-        Review testReview = new Review("Bro I'm straight up not having a good time right now", "BroJam", 1, "Not Gonna Fly");
+        Review testReview = new Review("Bro I'm straight up not having a good time right now", "BroJam", 1, testaurant);
         testaurant.addReview(testReview);
-        Review testReview2 = new Review("This is a pretty good rating but the names don't match", "NiceRev", 5, "Oops wrong name");
+        Review testReview2 = new Review("This is a pretty good rating but the names don't match", "NiceRev", 5, testaurant);
         testaurant.addReview(testReview2);
-        assertEquals(1, testaurant.getRating());
+        assertEquals(3, testaurant.getRating());
     }
 
     @Test
     public void restaurantToString_test() {
         Restaurant testaurant = new Restaurant("Not Gonna Fly", 5, "$$");
-        Review testReview = new Review("Bro I'm straight up not having a good time right now", "BroJam", 1, "Not Gonna Fly");
+        Review testReview = new Review("Bro I'm straight up not having a good time right now", "BroJam", 1, testaurant);
         testaurant.addReview(testReview);
-        Review testReview2 = new Review("This is a pretty good rating but the names don't match", "NiceRev", 5, "Not Gonna Fly");
+        Review testReview2 = new Review("This is a pretty good rating but the names don't match", "NiceRev", 5, testaurant);
         testaurant.addReview(testReview2);
         assertEquals("Not Gonna Fly has a 3 star rating and is $$ expensive", testaurant.toString());
     }

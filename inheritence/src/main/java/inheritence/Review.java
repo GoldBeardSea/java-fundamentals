@@ -5,14 +5,27 @@ public class Review {
     private String body;
     private String author;
     private int rating;
-    private String restaurant;
+    private Reviewables reviewableObj;
+    private String movie;
 
-    public Review(String body, String author, int rating, String restaurant) {
+    public Review(String body, String author, int rating, Reviewables reviewable) {
         this.body = body;
         this.author = author;
         this.rating = rating;
-        this.restaurant = restaurant;
+        this.reviewableObj = reviewable;
+        reviewable.addReview(this);
     }
+
+    public Review(String body, String author, int rating, Reviewables reviewableObj, String movie) {
+        this.body = body;
+        this.author = author;
+        this.rating = rating;
+        this.reviewableObj = reviewableObj;
+        this.movie = movie;
+        reviewableObj.addReview(this);
+    }
+
+
 
     public String getBody() {
         return body;
@@ -38,15 +51,23 @@ public class Review {
         this.rating = rating;
     }
 
-    public String getRestaurant() {
-        return restaurant;
+    public Reviewables getReviewable() {
+        return reviewableObj;
     }
 
-    public void setRestaurant(String restaurant) {
-        this.restaurant = restaurant;
+    public void setReviewable(Reviewables reviewable) {
+        this.reviewableObj = reviewable;
+    }
+
+    public String getMovie() {
+        return movie;
+    }
+
+    public void setMovie(String movie) {
+        this.movie = movie;
     }
 
     public String toString() {
-        return String.format("%s. For %s With %d star rating from %s", this.getBody(), this.getRestaurant(), this.getRating(), this.getAuthor());
+        return String.format("%s. %s with a %d star rating from author %s", this.getBody(), this.getReviewable(), this.getRating(), this.getAuthor());
     }
 }
